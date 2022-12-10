@@ -111,5 +111,7 @@ a{
     padding: 1rem;
 
 }
-
-
+a:hover{
+    color: blue;
+    transition: scale (1.5);
+}
