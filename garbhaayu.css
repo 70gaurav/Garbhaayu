@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+}
+.logo img{
+    width: 100px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.search i{
+    color: skyblue;
+    padding: 0 1rem ;
+}
+.login a{
+    padding: 0.5rem 1rem;
+    color: black;
+    background-color: rgb(210, 245, 233);
+    border: 1px solid rgb(210, 245, 233);
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+.signup a{
+    padding: 0.5rem 1rem;
+    color: black;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.navbar{
+    background-color: rgb(250, 64, 64);
+    padding: 1.5rem 0;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.navbar a{
+    color: #fff;
+    padding: 0 1rem;
+}
+.navbar i{
+    padding-left: 5px;
+
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 10rem 6rem 6rem;
+}
+.left{
+    width: 37%;
+}
+.left h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+.trial{
+    padding-top: 3rem;
+}
+.trial i{
+    padding-left: 10px;
+}
+.trial a{
+    color: black;
+    border: 1px solid;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+}
+.bold{
+    font-weight: 700;
+}
+.section2{
+    padding-top: 3rem;
+}
+.section2 h1{
+    text-align: center;
+    font-weight: 800;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.services img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.services{
+    width: 30%;
+    padding: 3rem 4rem;
+}
+.services p{
+    padding: 1rem;
+
+}
+
+
