@@ -33,6 +33,14 @@ a{
     border-radius: 10px;
     margin-right: 1rem;
 }
+.signup a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.login a:hover{
+    background-color: aqua;
+    color: #fff;
+}
 .signup a{
     padding: 0.5rem 1rem;
     color: black;
@@ -51,7 +59,11 @@ a{
 }
 .navbar a{
     color: #fff;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
+}
+.navbar a:hover{
+    background-color: bisque;
+    color: #000;
 }
 .navbar i{
     padding-left: 5px;
@@ -80,6 +92,10 @@ a{
     border: 1px solid;
     padding: 1rem 1.5rem;
     border-radius: 10px;
+}
+.trial a:hover{
+    background-color: #000;
+    color: #fff;
 }
 .bold{
     font-weight: 700;
@@ -110,8 +126,4 @@ a{
 .services p{
     padding: 1rem;
 
-}
-a:hover{
-    color: blue;
-    transition: scale (1.5);
 }
