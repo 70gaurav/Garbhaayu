@@ -93,10 +93,7 @@ a{
     padding: 1rem 1.5rem;
     border-radius: 10px;
 }
-.trial a:hover{
-    background-color: #000;
-    color: #fff;
-}
+
 .bold{
     font-weight: 700;
 }
